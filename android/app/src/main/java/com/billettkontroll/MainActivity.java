@@ -1,7 +1,6 @@
 package com.billettkontroll;
 
 import com.facebook.react.ReactActivity;
-import com.learnium.RNDeviceInfo.RNDeviceInfo;
 
 public class MainActivity extends ReactActivity {
 

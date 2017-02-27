@@ -11,8 +11,9 @@
     "geofire": "^4.1.2",
     "native-base": "^2.0.10",
     "react": "15.4.2",
-    "react-native": "0.41.2",
+    "react-native": "^0.41.2",
     "react-native-device-info": "^0.9.9",
+    "react-native-fcm": "^6.1.0",
     "react-native-keyboard-spacer": "^0.3.1"
   },
   "devDependencies": {

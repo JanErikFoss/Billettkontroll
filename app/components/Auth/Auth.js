@@ -27,9 +27,18 @@ export default class Auth extends Component {
       Alert.alert("Error: " + err.code, err.message)
       Promise.reject("Failed to sign in, not setting state")
     })
-    .then(() => this.setState({ user }))
     .then(() => console.log("User is signed in"))
+    .then(() => this.authorized(user))
     .catch(err => console.log("Failed to set state after authorizing: ", err))
+  }
+
+  authorized(user) {
+    try {
+      this.setState({ user })
+    } catch (err) {
+      console.log("Failed to set state after authorizing user, throwing error")
+      throw (err)
+    }
   }
 
   authorizeUser() {

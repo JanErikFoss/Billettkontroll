@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "1066026594467",
+    "firebase_url": "https://billettkontroll-9dbe0.firebaseio.com",
+    "project_id": "billettkontroll-9dbe0",
+    "storage_bucket": "billettkontroll-9dbe0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1066026594467:android:1cf22a3cacae1e2e",
+        "android_client_info": {
+          "package_name": "no.solafoss.billettkontroll"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1066026594467-eamiie9oen7g72bfj9vj8r7t9l7p8320.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDo0FV0KHI40A-eD7TRcY-k9Eb1IYiuZd0"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

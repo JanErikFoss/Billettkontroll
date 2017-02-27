@@ -1,4 +1,4 @@
-package com.billettkontroll;
+package no.solafoss.billettkontroll;
 
 import android.app.Application;
 import android.util.Log;

@@ -5,6 +5,7 @@
 	};
 	objectVersion = 46;
 	objects = {
+
 /* Begin PBXBuildFile section */
 		00C302E51ABCBA2D00DB3ED1 /* libRCTActionSheet.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 00C302AC1ABCB8CE00DB3ED1 /* libRCTActionSheet.a */; };
 		00C302E71ABCBA2D00DB3ED1 /* libRCTGeolocation.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 00C302BA1ABCB90400DB3ED1 /* libRCTGeolocation.a */; };
@@ -47,8 +48,7 @@
 		3998DE451E63DE5B00840994 /* GoogleToolboxForMac.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3998DE411E63DE5B00840994 /* GoogleToolboxForMac.framework */; };
 		3998DE481E63DE6400840994 /* FirebaseMessaging.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3998DE461E63DE6400840994 /* FirebaseMessaging.framework */; };
 		3998DE491E63DE6400840994 /* Protobuf.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3998DE471E63DE6400840994 /* Protobuf.framework */; };
-		3998DE4C1E63DECB00840994 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3998DE4B1E63DECB00840994 /* GoogleService-Info.plist */; };
-		3998DE4D1E63DECB00840994 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3998DE4B1E63DECB00840994 /* GoogleService-Info.plist */; };
+		3998DEB21E63E90B00840994 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3998DEB11E63E90B00840994 /* GoogleService-Info.plist */; };
 		3D5D19A12E3D4A3492DE7A76 /* libRNFIRMessaging.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 515CFAAE1EF3412689770ADB /* libRNFIRMessaging.a */; };
 		3E1EE362B87F42308F271E72 /* libRNDeviceInfo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DE0672676934059A551CB54 /* libRNDeviceInfo.a */; };
 		48E71D77B8414D7B9F79EA6D /* Roboto_medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 96A82E1D463C4D049E7BE12F /* Roboto_medium.ttf */; };
@@ -328,8 +328,8 @@
 		3998DE461E63DE6400840994 /* FirebaseMessaging.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FirebaseMessaging.framework; sourceTree = "<group>"; };
 		3998DE471E63DE6400840994 /* Protobuf.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Protobuf.framework; sourceTree = "<group>"; };
 		3998DE4A1E63DE7200840994 /* Firebase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Firebase.h; sourceTree = "<group>"; };
-		3998DE4B1E63DECB00840994 /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		3998DE4E1E63E0CC00840994 /* Billettkontroll.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; name = Billettkontroll.entitlements; path = Billettkontroll/Billettkontroll.entitlements; sourceTree = "<group>"; };
+		3998DEB11E63E90B00840994 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "Billettkontroll/GoogleService-Info.plist"; sourceTree = "<group>"; };
 		49F0513EC70A4A75A7AEA29A /* FontAwesome.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome.ttf; path = "../node_modules/native-base/Fonts/FontAwesome.ttf"; sourceTree = "<group>"; };
 		4AC1CBFAD0B7440A9AAF67D4 /* rubicon-icon-font.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "rubicon-icon-font.ttf"; path = "../node_modules/native-base/Fonts/rubicon-icon-font.ttf"; sourceTree = "<group>"; };
 		4C5FCF361C3F45D2A4C03C68 /* Ionicons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Ionicons.ttf; path = "../node_modules/native-base/Fonts/Ionicons.ttf"; sourceTree = "<group>"; };
@@ -501,6 +501,7 @@
 		13B07FAE1A68108700A75B9A /* Billettkontroll */ = {
 			isa = PBXGroup;
 			children = (
+				3998DEB11E63E90B00840994 /* GoogleService-Info.plist */,
 				3998DE4E1E63E0CC00840994 /* Billettkontroll.entitlements */,
 				3998DE4A1E63DE7200840994 /* Firebase.h */,
 				008F07F21AC5B25A0029DE68 /* main.jsbundle */,
@@ -510,7 +511,6 @@
 				13B07FB61A68108700A75B9A /* Info.plist */,
 				13B07FB11A68108700A75B9A /* LaunchScreen.xib */,
 				13B07FB71A68108700A75B9A /* main.m */,
-				3998DE4B1E63DECB00840994 /* GoogleService-Info.plist */,
 			);
 			name = Billettkontroll;
 			sourceTree = "<group>";
@@ -1050,7 +1050,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3998DE4D1E63DECB00840994 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1064,7 +1063,7 @@
 				99A54AA104D349788D2E6E4C /* Arial Black.ttf in Resources */,
 				1AAFA658C66E446880EFAA54 /* Arial.ttf in Resources */,
 				F1365B33814045108F76E5C0 /* Comic Sans MS.ttf in Resources */,
-				3998DE4C1E63DECB00840994 /* GoogleService-Info.plist in Resources */,
+				3998DEB21E63E90B00840994 /* GoogleService-Info.plist in Resources */,
 				6A8FC2DB55A84EEFBC4930F1 /* Courier New.ttf in Resources */,
 				C3CE2DDFDC7C4B79BF1BB780 /* Entypo.ttf in Resources */,
 				7EBCCFCE36324E3BA41BB354 /* EvilIcons.ttf in Resources */,
@@ -1270,6 +1269,7 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)",
 				);
+				HEADER_SEARCH_PATHS = "$(SRCROOT)/../node_modules/react-native-fcm/ios/**";
 				INFOPLIST_FILE = Billettkontroll/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
@@ -1293,6 +1293,7 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)",
 				);
+				HEADER_SEARCH_PATHS = "$(SRCROOT)/../node_modules/react-native-fcm/ios/**";
 				INFOPLIST_FILE = Billettkontroll/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
